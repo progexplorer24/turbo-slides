@@ -4,17 +4,17 @@ import { arbitrum, goerli, hardhat, mainnet, optimism, polygon, sepolia } from '
 // Application
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 export const SITE_CANONICAL = 'https://slides.turboeth.xyz/'
-export const SITE_EMOJI = '📖'
-export const SITE_NAME = 'TurboSlides'
-export const SITE_TAGLINE = 'Supercharged Web3 Presentations'
-export const SITE_TITLE = 'TurboSlides - Web3 Presentation Tool'
-export const SITE_DESCRIPTION = 'Slide Decks with Web3 Capabilities'
+export const SITE_EMOJI = '🐟'
+export const SITE_NAME = 'Phishing'
+export const SITE_TAGLINE = 'Jak nie dać się oszukać'
+export const SITE_TITLE = 'Phishing - Prezentacja'
+export const SITE_DESCRIPTION = 'Czy podejmiesz wyzwanie?'
 export const SOCIAL_TWITTER = 'district_labs'
 export const SOCIAL_GITHUB = 'turbo-eth/turbo-slides'
 
-export const AUTHOR_NAME = '@KamesGeraghty'
-export const AUTHOR_URL = 'https://twitter.com/KamesGeraghty'
-export const AUTHOR_IMAGE_URL = 'https://pbs.twimg.com/profile_images/1614629077276663813/-D_dYj9i_400x400.jpg'
+export const AUTHOR_NAME = '@DKWOC'
+export const AUTHOR_URL = 'https://twitter.com/CyberWojska'
+export const AUTHOR_IMAGE_URL = '/dkwoc_logo.png'
 
 export const PRESENTATION_DATE = 'Q1 2023'
 export const PRESENTATION_MODES = {
@@ -29,7 +29,7 @@ export const APP_CONFIG = {
   site_name: SITE_NAME,
   description: SITE_DESCRIPTION,
   previewImg: `${SITE_CANONICAL}/preview.png`,
-  locale: 'en',
+  locale: 'pl',
   twitter: SOCIAL_TWITTER,
 }
 

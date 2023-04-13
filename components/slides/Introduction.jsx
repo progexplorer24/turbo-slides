@@ -5,7 +5,7 @@ import { BranchColorMode } from '@/components/branch/BranchColorMode'
 import { DEPLOY_URL } from '@/lib/constants'
 import { FADE_DOWN_ANIMATION_VARIANTS, FADE_UP_LG_ANIMATION_VARIANTS } from '@/lib/design'
 import { motion } from 'framer-motion'
-import { WalletConnect } from '@/components/web3/WalletConnect'
+// import { WalletConnect } from '@/components/web3/WalletConnect'
 
 export const Introduction = ({ className }) => {
   const classes = classNames(className, 'Introduction', 'container mx-auto max-w-screen-xl', 'flex flex-col text-left min-h-[70vh]')
@@ -30,7 +30,7 @@ export const Introduction = ({ className }) => {
         </div>
         <div className="flex-1 flex flex-col flex-center justify-center">
           <motion.div className="mt-6 flex items-center gap-x-5 z-10" variants={FADE_DOWN_ANIMATION_VARIANTS}>
-            <a
+            {/* <a
               className="group flex max-w-fit items-center justify-center space-x-2 rounded-full border border-black bg-black px-5 py-2 text-sm text-white transition-colors hover:bg-white hover:text-black"
               href={DEPLOY_URL}
               target="_blank"
@@ -39,23 +39,23 @@ export const Introduction = ({ className }) => {
                 <path d="M12 4L20 20H4L12 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               <span>Deploy to Vercel</span>
-            </a>
+            </a> */}
             <a
               className="flex max-w-fit cursor-pointer items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"
-              href="https://github.com/turbo-eth/turbo-slides"
+              href="https://www.wojsko-polskie.pl/woc/"
               target="_blank"
               rel="noopener noreferrer">
-              <span>Star on GitHub</span>
+              <span>Podejmij Wyzwanie!</span>
             </a>
           </motion.div>
         </div>
         <div className="text-left">
           <h3 className="font-normal text-lg">
             <a className="link" href="https://districtlabs.com">
-              Designed and Developed at District Labs
+              Zaprojektowane i wykonane przez #CyberWojsko
             </a>
           </h3>
-          <h3 className="font-raleway text-lg">Kames Geraghty | CTO</h3>
+          <h3 className="font-raleway text-lg">Konrad Krawczyk | Patryk Szymkowiak</h3>
         </div>
       </motion.div>
       <div className="absolute top-20 right-32">

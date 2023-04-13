@@ -8,6 +8,7 @@ import SpeakerNotes from '@/components/presentation/SpeakerNotes'
 import Step from '@/components/presentation/Step'
 import Steps from '@/components/presentation/Steps'
 import All from '@/components/slides'
+import New from '@/components/slides/New'
 import { motion } from 'framer-motion'
 
 const mdComponents = {
@@ -29,11 +30,13 @@ const mdComponents = {
   Step,
   Steps,
   motion,
+  New,
   ...All,
 }
 
 export const MDXProvider = ({ children }) => (
   <div className="bg-gradient-app">
+    {console.log({ all: All })}
     <Provider components={mdComponents}>{children}</Provider>
   </div>
 )
